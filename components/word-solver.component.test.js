@@ -1,0 +1,2 @@
+import{wordSolver}from"./word-solver.component.js";describe("wordSolver",()=>{it("Deve retornar as palavras que contenham as letras informadas",async()=>{require("./word-solver.component.js").loadDictionary.mockResolvedValue(["apple","banana","grape","orange"]);var a=await wordSolver({letters:"ap"},callback);expect(a).toEqual(["apple","grape"])})});
+//# sourceMappingURL=word-solver.component.test.js.map
